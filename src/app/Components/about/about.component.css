@@ -1,0 +1,13 @@
+#about{
+    background-color: #1abc9c;
+}
+.page-section {
+    padding: 6rem;
+}
+.page-section .page-section-heading {
+    font-size: 48px;
+    font-weight: 700;
+}
+.icon {
+    text-align: center;
+}

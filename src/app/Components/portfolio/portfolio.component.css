@@ -1,0 +1,38 @@
+.page-section {
+    padding: 6rem;
+  }
+  .page-section .page-section-heading {
+    color: #2c3e50;
+    font-size: 48px;
+    font-weight: 700;
+  }
+  .icon {
+    text-align: center;
+  }
+  .portfolio .portfolio-item {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    max-width: 25rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  .layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    background-color: rgba(26, 188, 156, 0.9);
+  }
+  .layout:hover {
+    opacity: 1;
+  }
+  .lyicon {
+    font-size: 6rem;
+  }
